@@ -1,0 +1,86 @@
+/* commentaires en CSS */
+*{
+  text-align: right;
+}
+body{
+  background: #f5deb3;
+}
+header{
+  background: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAt8Ck9mdSETziiVGBi9COCg) no-repeat top;
+  color: #fff;
+  height: 300px;
+}
+.slogan{
+  width: 45%;
+  /* height: 20px; */
+  background: transparent;
+  color: #12aa0c;
+  text-align: center;
+  margin: 0 0 0 20%;
+  padding: 0;
+  padding-left: 5%;
+}
+nav{
+  background-color: #95d61d23;
+  height: 100px;
+}
+h3{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  width: 20%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+section{
+  background: rgba(46, 46, 177, 0.616);
+  height: 550px
+}
+article{
+  background-color: #ff5733;
+  height: 66px;
+  width: 50%;
+}
+footer{
+  background-color: #daf7a6;
+  height: 75px;
+}
+nav, footer{
+  color: #a93226;
+}
+/*je cible une class avec un point devant*/
+.jaune{
+  background-color: yellow;
+}
+.toto{
+  width: 50%;
+}
+.center{
+  margin: 0 auto;
+}
+/*je cible un id avec un dièse devant*/
+#noir{
+  background-color: black;
+  color: #fff;
+  text-align: justify;
+  font-size: 25px;
+  width: 50%;
+  float: right;
+}
+
+

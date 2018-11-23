@@ -1,0 +1,399 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	min-height: 100vh;
+	max-height: 100vh;
+	color: white;
+	font-family: Arial;
+	font-size: 32px;
+	font-style: italic;
+	text-align: center;
+}
+
+/*******EXERCICE A & INITIALISATION POUR LE RESTE*************/
+
+
+header
+{
+	height: 10vh;
+	background: #ffc90e;
+}
+
+nav
+{
+	height: 7vh;
+	background: #99d9ea;
+}
+
+main
+{
+	min-height: 76vh;
+}
+
+footer
+{
+	height: 7vh;
+	background: #ffc90e;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+header
+{
+	padding-top: 20px;
+}
+
+nav, footer
+{
+	padding-top: 10px;
+}
+
+/*******COULEURS SECTIONS*******/
+
+section:first-child,
+section:nth-child(10)
+{
+	background: #DDFFFF;
+}
+
+section:nth-child(2),
+section:nth-child(11)
+{
+	background: #FFDDFF;
+}
+
+section:nth-child(3),
+section:nth-child(12)
+{
+	background: #FFFFDD;
+}
+
+section:nth-child(4),
+section:nth-child(13)
+{
+	background: #FEEFFF;
+}
+
+section:nth-child(5),
+section:nth-child(14)
+{
+	background: #FFFEEF;
+}
+
+section:nth-child(6),
+section:nth-child(15)
+{
+	background: #EFFFFE;
+}
+
+section:nth-child(7),
+section:nth-child(16)
+{
+	background: #DDDDFF;
+}
+
+section:nth-child(8),
+section:nth-child(17)
+{
+	background: #DDFFDD;
+}
+
+section:nth-child(9),
+section:nth-child(18)
+{
+	background: #FFDDDD;
+}
+
+section:last-child
+{
+	background: #EEE;
+}
+
+/********EX A************/
+
+.aBig
+{
+	height: 76vh;
+}
+
+/********EX B*************/
+
+.bLeft, .bRight
+{
+	height: 76vh;
+	float: left;
+}
+
+.bLeft
+{
+	width: 80%;
+}
+
+.bRight
+{
+	width: 20%;
+}
+
+.clear
+{
+	clear: both;
+}
+
+/******EX C**********/
+
+.cTop
+{
+	height: 16vh;
+}
+
+.cBottom
+{
+	height: 60vh;
+}
+
+
+/*****EX D*******/
+
+.dLarge
+{
+	height: 14vh;
+}
+
+.dDemi
+{
+	float: left;
+	width: 50%;
+	height: 48vh;
+}
+
+/*****EX E******/
+
+.eLarge
+{
+	height: 14vh;
+}
+
+.eDemi
+{
+	float: left;
+	width: 50%;
+	height: 62vh;
+}
+
+
+/*****EX F******/
+
+
+.fLeft, .fRight
+{
+	float: left;
+	height: 76vh;
+}
+
+.fLeft
+{
+	width: 20%;
+}
+
+
+.fRight
+{
+	width: 80%;
+}
+
+
+/******EX G*****/
+
+.gCote, .gCentre
+{
+	float: left;
+	height: 76vh;
+}
+
+.gCote
+{
+	width: 10%;
+}
+
+.gCentre
+{
+	width: 80%;
+}
+
+/*****EX G******/
+
+.hContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hContainer section
+{
+	width: 50%;
+}
+
+
+/*****EX I*******/
+
+.iContainer
+{
+	height: 76vh;
+	text-align: left;
+}
+
+.iContainer section
+{
+	display: inline-block;
+	height: 38vh;
+	width: 24%;
+	float: left;
+	margin: 0 20px 20px 0;
+	vertical-align: bottom;
+}
+
+.iContainer p
+{
+	color: #888;
+	font-size: 16px;
+	text-align: justify;
+	padding: 15px;
+	margin-top: 0;
+}
+
+/*****EX J*******/
+
+.jContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.jContainer section
+{
+	width: 16.66%;
+}
+
+/*****EX K*****/
+
+.kContainer
+{
+	height: 24vh;
+}
+
+.kContainer section:not(.clear)
+{
+	float: left;
+	height: 24vh;
+	width: 50%;
+}
+
+.kBottom
+{
+	height: 52vh;
+	background: #F7F8F9;
+}
+
+
+/*****EX L*****/
+
+.lContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lContainer section
+{
+	width: 25%;
+}
+
+.lContainer section:nth-child(2),
+.lContainer section:nth-child(6)
+{
+	width: 50%;
+}
+
+.lContainer section:nth-child(4)
+{
+	width: 100%;
+}
+
+
+/******EX M******/
+
+.mTop
+{
+	height: 54vh;
+}
+
+.mBottom
+{
+	float: left;
+	width: 50%;
+	height: 22vh;
+}
+
+
+/*****EX N*****/
+
+.nContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nContainer section
+{
+	width: 25%;
+}
+
+.nContainer section:nth-child(2)
+{
+	width: 50%;
+}
+
+.nContainer section:nth-child(4)
+{
+	width: 100%;
+}
+
+.nContainer section:nth-child(5),
+.nContainer section:last-child
+{
+	width: 50%;
+}
+
+/*****EX O******/
+
+.oCote, .oCentre
+{
+	float: left;
+	height: 76vh;
+}
+
+.oCote
+{
+	width: 10%;
+}
+
+.oCote section
+{
+	height: 38vh;
+}
+
+.oCentre
+{
+	width: 80%;
+}

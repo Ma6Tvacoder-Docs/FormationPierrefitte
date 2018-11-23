@@ -1,0 +1,22 @@
+.form{
+  width: 80%;
+  padding: 2% 0 2% 40%;
+  background: rgb(228, 245, 163);
+}
+
+label{
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+input{
+  margin: 5px;
+  height: 20px;
+  width: 40%;
+  border: 1px solid #a31d1a;
+}
+
+input[type=button]{
+  width: 10%;
+  float: left;
+}

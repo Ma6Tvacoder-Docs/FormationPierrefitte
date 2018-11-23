@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: yellow;
+  color: #fff;
+  height: 64px;
+  text-align: center;
+}
+
+nav{
+  background: lightskyblue;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+}
+
+div{
+  background: gray;
+  height: 60px;
+}
+
+.blue{
+  background: red;
+  height: 400px;
+  width: 50%;
+  float: right;
+}
+
+.pink{
+  background: pink;
+  height: 400px;
+  width: 50%;
+}
+
+.marron{
+  background: rgb(15, 134, 4);
+  height: 50px;
+  width: 100%;
+}
+
+
+footer{
+  background: gold;
+  color: #fff;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}

@@ -1,0 +1,47 @@
+*{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: yellow;
+  color: white;
+  height: 90px;
+  text-align: center;
+}
+
+nav{
+  background: blue;
+  height: 60px;
+  color: #fff;
+}
+section{
+  height: 430px;
+}
+
+.aa{
+  /* height: 430px; */
+  background-color: cyan;
+}
+
+.aaa{
+  /* height: 430px; */
+  background-color: #ccc;
+}
+
+article{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -45.2%;
+  height: 844px;
+  background-color: rgb(208, 161, 235);
+}
+
+footer{
+  background: #ad1212;
+  height: 50px;
+}
+
+footer h3{
+  text-align: center;
+}
