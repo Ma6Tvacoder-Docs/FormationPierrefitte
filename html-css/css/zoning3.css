@@ -1,0 +1,92 @@
+#conteneur{
+  width: 960px;
+  background: paleturquoise;
+  color: white;
+  margin: 0 auto;
+}
+
+header {
+  background: tan;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+nav {
+  background: darkslategray;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+section{
+  height: 500px;
+  background: gray;
+  margin: 10px;
+}
+
+.GZ {
+  border: 1px solid;
+  float: left;
+  /* display: inline-block */
+  height: 248px;/* Pour calculer la hauteur on divise 500(height:500px de la section) par 2 moins la bordure(1px en haut & 1px en bas) 500 / 2 - 1 - 1 = 248*/
+  width: 468px;/* 960 = width de mon conteneur / 2; 480 - 10 = marge de ma section -> 470 - 1 = la bordure gauche - 1 = bordure droite ->468 = la largeur de la div*/
+}
+
+.PZ {
+  border: 1px solid;
+  float: left;
+  /* display: inline-block */
+  height: 122px;
+  line-height: 122px;
+  text-align: center;
+  width: 232px;/* 468 / 2 = 234 - 1 - 1 = 232 -> large*/
+}
+
+.PZ2 {
+  border: 1px solid;
+  float: left;
+  /* display: inline-block */
+  height: 61px;
+  line-height: 61px;
+  text-align: center;
+  width: 114px;
+}
+
+.PZ3 {
+  border: 1px solid;
+  float: left;
+  /* display: inline-block */
+  height: 28.5px;
+  width: 55px;
+}
+
+.PZ4 {
+  border: 1px solid;
+  float: left;
+  /* display: inline-block */
+  height: 14px;
+  width: 25px;
+}
+
+.couleur_1{
+  background: peachpuff;
+}
+
+.couleur_2{
+  background: #7a9eb1;
+}
+
+.couleur_3{
+  background: #415865;
+}
+
+.couleur_4{
+  background: #ffe1b3;
+}
+footer {
+  background: silver;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+
+.container{
+  border: 1px solid #000;
+}
+
+.col-md-12 {
+  height: 100px;
+  text-align: center;
+  border: 1px solid #000;
+}
+.col-md{
+  height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.col-md-8{
+  height: 150px;
+  border-left: 1px solid #000;
+}
+
+.col-md-4{
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.tz{
+  height: 30px;
+}
+
+.tt{
+  height: 30px;
+  border: 1px solid #000;
+}
+
+.toto {
+  height: 50px;
+}
+

@@ -1,0 +1,40 @@
+.responsive {
+  color: white;
+  height: 100px;
+  background: red;
+}
+
+/* En utilisant "max-width" le style sera éxecuté si la fenêtre est inférieur à la taille defini */
+/* @media screen and (max-width: 500px){
+  .responsive {
+    background: red;
+    color: black;
+  }
+}
+@media screen and (max-width: 798px){
+  .responsive {
+    background: yellow;
+    color: red;
+  }
+} */
+/* @media screen and (max-width: ){} */
+/* @media screen and (max-width: ){} */
+
+/* En utilisant "min-width" le style sera éxecuté si la fenêtre est superieur à la taille defini */
+@media screen and (min-width: 768px){
+  .responsive {
+    background: yellow;
+  }
+}
+@media screen and (min-width: 992px){
+  .responsive {
+    background:blue;
+  }
+}
+@media screen and (min-width: 1200px){
+  .responsive {
+    background: green;
+  }
+}
+/* @media screen and (min-width: ){} */
+

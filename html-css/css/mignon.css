@@ -1,0 +1,25 @@
+body {
+  background: pink;
+}
+
+section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+td {
+  width: 4em;/* 1em = 16px */
+  height: 4em;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.gray {
+  background: gray;
+}
+
+.white {
+  background: #fff;
+}

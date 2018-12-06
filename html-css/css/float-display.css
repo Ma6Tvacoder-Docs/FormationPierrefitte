@@ -1,0 +1,22 @@
+.c1, .c2{
+  height: 10em;
+  width: 10em;
+  margin: 5px;
+  /* float: left; */
+  border: 2px solid #000;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.c1 {
+  background-color: #7A43E0;
+}
+
+.c2{
+  background: #43E07A;
+}
+
+.clear{
+  clear: both;
+}

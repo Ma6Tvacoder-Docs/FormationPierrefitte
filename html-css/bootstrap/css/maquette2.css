@@ -1,0 +1,27 @@
+* {
+  text-align: center;
+}
+
+.lead {
+  color: #ccc;
+  font-weight: bold;
+  margin-right: 200px;
+  padding: 30px 0 30px 0;
+}
+
+.toto {
+  margin-left: 238px;
+  padding: 30px 0 30px 0;
+}
+
+@media screen and (max-width: 360px){
+  .lead{
+    margin-left: 155px;
+    width: 100%;
+  }
+
+  .lien {
+    width: 100%;
+    margin-left: 280px;
+  }
+}
