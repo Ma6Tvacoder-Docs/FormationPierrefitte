@@ -1,15 +1,6 @@
 /* Style global */
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
-    background: #ccc;
-}
-
-.header{
-    background: white;
+    background: linear-gradient(to bottom, #ddd, #fff);
 }
 
 .container{
@@ -19,80 +10,114 @@ body{
 
 /* Style header */
 .logo{
-    left: 15%;
-    bottom: 22%;
+    position: relative;
+    left: 7%;
+    bottom: 23%;
+}
+
+.col-md-6 .lead{
+    color: deeppink;
+    bottom: 29%;
     position: relative;
 }
 
-.lead {
-    font-size: 15px;
-    color: pink;
-    position: relative;
-    bottom: 45px;
-    left: 34px;
-}
-nav {
-    margin-bottom: 20px;
-}
-
-nav a{
-    font-size: 25px;
-    color: #fff !important;
-}
-
-nav a:first-child{
-    background: red !important;
-}
-
-/* Style bandeau */
-.image img{
-    width: 1120px;
-    margin-left: 1.3%;
-}
-
-/* Style div */
-.d3{
-    width: 100.6%;
-    background: #fff;
-    margin-left: 0.1%;
-}
-
-.d3 h3 {
+.col-md-3 h4 {
     color: aqua;
 }
 
-.border1{
-    border-right: 1px solid #ccc;
+.col-md-3 span{
+    bottom: 17%;
+    position: absolute;
+    top: 26%;
+    left: 26%;
 }
 
-.d4{
-    margin: 1%;
-    border: 1px solid #000;
-    border-radius: 4%;
-    box-shadow: 18px 5px 5px #ddd;
+.col-md-3 p{
+    color: rgb(148, 144, 144);
+    font-size: 12px;
 }
 
-.d4 h4{
-    width: 109.5%;
-    padding: 0;
-    margin: 0px;
+.account{
+    width: 495px;
+    height: 12vh;
+    color: #fff;
+    background: rgb(50, 231, 231);
+}
+
+.compte, .account p{
+    color: #fff !important;
+}
+
+hr{
+    background: #fff;
+    width: 495px;
+    margin-left: -6%;
+}
+
+/* Style nav */
+nav{
+    width: 88%;
+}
+
+nav ul{
+    color: #fff;
+    height: 5vh;
+    line-height: 3;
+}
+
+nav ul li{
+    padding-right: 1%;
+    margin-left: 5%;
+}
+
+nav ul li:first-child{
+    background: deeppink;
+}
+
+/* Style div contenu */
+.t{
+    border-right: 2px solid #cccccc;
+}
+
+.b h3{
+    padding: 1%;
+    color: aqua;
+}
+
+.bloc2{
+    border: 1px solid #cccccc;
+    margin-right: 2%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-bottom: 4%;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+.bloc2 h4{
+    width: 110%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    font-weight: 900;
+    text-align: center;
+    background: #cccccc;
     position: relative;
-    right: 15px;
-    border-radius: 4%;
+    right: 5%;
+    top: 0%;
+    margin: 0;
+    padding: 0;
 }
 
-.d4 a {
+.bloc2 a{
     float: right;
-    font-size: 1.3em;
 }
 
 /* Style footer */
 footer{
+    height: 5vh;
     color: #fff;
-    height: 10%;
-    line-height: 4;
+    line-height: 3;
 }
 
 footer ul{
-    margin-left: 10%;
+    margin-left: 5%;
 }
