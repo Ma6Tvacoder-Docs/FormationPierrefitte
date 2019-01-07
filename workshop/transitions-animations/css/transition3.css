@@ -1,0 +1,46 @@
+h1 {
+ background-color:#000;
+ color:#FFF;
+ font-size:300%;
+}
+
+h2 {
+   width:30%;
+   position:absolute;
+   top:40%;
+   left:35%;
+   background-color:#FF0;
+   padding:1ex;
+   border: solid 1ex #000;
+   margin:auto;
+   animation-name: diagonal-slide;
+   animation-delay: 1s;
+   animation-duration: 2s;
+   animation-iteration-count: 3;
+   animation-direction: alternate;
+   animation-timing-function:linear;
+}
+
+@keyframes diagonal-slide {
+ from {
+ }
+ 10% {
+   transform: rotate(72deg) scale(0.5);
+ }
+ 50% {
+   background-color:#08F;
+   color:#FFF;
+   transform: rotate(360deg) scale(2);
+   border-radius:1em;
+   border-width:0;
+   padding:2ex;
+ }
+ to {
+   transform: rotate(720deg) scale(1);
+   color:#000;
+   background-color:#FF0;
+   border-width:1ex;
+   border-radius:0;
+   padding:1ex;
+ }
+}

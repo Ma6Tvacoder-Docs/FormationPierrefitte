@@ -1,0 +1,41 @@
+.container{
+  width: 80%;
+  border: 2px solid #000;
+}
+.bleu{
+  height: 200px;
+  background: rgb(7, 38, 214);
+}
+.blanc{
+  height: 200px;
+  background: #ffffff;
+}
+.violet{
+  height: 100px;
+  background: #81007F;
+}
+.bleuGrand{
+  height: 200px;
+  background: #0000FE;
+}
+.bleuClair{
+  height: 200px;
+  background: #6395EC;
+}
+.orange{
+  height: 200px;
+  background: #FEA500;
+}
+.jaune{
+  height: 200px;
+  background: #FFFF00;
+}
+.bleuG{
+  position: relative;
+  bottom: 400px;
+  height: 600px;
+  background: #0000FE
+}
+.tt{
+  height: 200px;
+}

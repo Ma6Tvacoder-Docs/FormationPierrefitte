@@ -1,0 +1,388 @@
+/* CSS Langague Client - TD nÂ°3 */
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	background: #fff;
+	width:100%;
+	font-family: Arial;
+}
+
+.corps {
+	width:1000px;
+	margin: auto;
+}
+
+#corps {
+	margin-top:-469px;
+}
+
+a {
+	text-decoration: none;
+	color:#000;
+}
+
+/*** ********************************************************************************************************************
+															Header
+******************************************************************************************************************** ***/
+
+#header_haut {
+	background: url(../img/header_haut.png) repeat-x 0 0;
+	height: 17px;
+	min-width:1000px;
+	position:relative;
+}
+
+#header_milieu {
+	background:url(../img/pattern.jpg) repeat;
+	margin-top:-17px;
+	height:180px;
+	min-width:1000px;
+}
+
+#header_bas {
+	background:url(../img/pattern2.jpg) repeat-x 0 0px;
+	margin-top: -180px;
+	min-width:1000px;
+	height:486px;
+}
+
+header .lang {
+	position:absolute;
+	top: 15px;
+	right:0;
+}
+
+header .lang a:nth-of-type(1) {
+	background: url(img/flags_24x24.png) 0 0 no-repeat;
+	display:block;
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+header .lang a:nth-of-type(2) {
+	background: url(img/flags_24x24.png) -24px 0 no-repeat;
+	display:block;
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+/*** ********************************************************************************************************************
+															Menu
+******************************************************************************************************************** ***/
+
+nav {
+	background: url(img/menu.png) 0 bottom no-repeat;
+	height:130px;
+	width:958px;
+	margin: 0 21px;
+}
+
+nav ul {
+	float: left;
+	margin-top: 98px; /*62 px*/
+}
+
+nav li {
+	display:inline;
+}
+
+nav li a, nav a {
+	font-family: "Lobster Two";
+	font-size:1.1em;
+	text-decoration: none;
+	color: #fff;
+	font-weight:bold;
+}
+
+nav li a:hover {
+	color:#4f394f;
+}
+
+nav li:nth-of-type(1){
+	background: url(img/point.png) right 7px no-repeat;
+	padding:0 25px 0 22px;
+}
+
+nav li:nth-of-type(2){
+	background: url(img/point.png) right 7px no-repeat;
+	padding:0 25px 0 4px;
+}
+
+nav li:nth-of-type(3){
+	padding:0 0 0 4px;
+}
+
+nav li:nth-of-type(4){
+	background: url(img/point.png) right 7px no-repeat;
+	padding:0 25px 0 3px;
+	margin-left:266px;
+}
+
+nav li:nth-of-type(5){
+	background: url(img/point.png) right 7px no-repeat;
+	padding:0 25px 0 4px;
+}
+
+nav li:nth-of-type(6){
+	background: url(img/point.png) right 7px no-repeat;
+	padding:0 25px 0 4px;
+}
+
+nav li:nth-of-type(7){
+	padding:0 0 0 4px;
+}
+
+nav div {
+	float: left;
+}
+
+nav div#logo {
+	display: inline-block;
+	width:198px;
+	padding:0 32px;
+	font-size:1.35em;
+	text-align:center;
+	position: relative;
+	top: -59px;
+	left:361px;
+}
+
+
+/*** ********************************************************************************************************************
+															Carrousel
+******************************************************************************************************************** ***/
+
+#carrousel {
+	border: 1px dashed #788271;
+	border-radius: 10px;
+	background: #f0f0f0;
+}
+
+#carrousel .carrousel_img {
+	background: url(../img/) 10px 10px no-repeat;
+	height: 370px;
+}
+
+#carrousel #presentation {
+	height:330px;
+	background: rgba(255,255,255,0.6);
+	padding: 15px 20px 20px;
+	margin-right: 60px;
+	position: absolute;
+	right:187px;
+	top: 158px;
+}
+
+#carrousel #presentation h1 {
+	color:#4f394f;
+	font-family: "Lobster Two";
+	font-size: 1.25em;
+	padding: 0 0 15px;
+}
+
+#carrousel #presentation p {
+	text-align:justify;
+	width:170px;
+	font-size:0.75em;
+	margin-bottom:5px;
+}
+
+#carrousel #presentation .bouton {
+	background: url(img/fleche.png) 126px -1px no-repeat;
+	display:block;
+	border-radius: 25px;
+	border: #4f394f 1px solid;
+	color:#4f394f;
+	font-family: "Lobster Two";
+	font-size: 1.2em;
+	text-align: left;
+	padding: 1px 5px 4px 14px;
+	margin: 0 7px 10px;
+}
+
+#carrousel #presentation a:nth-of-type(1) {
+	margin-top: 35px;
+}
+
+/*** ********************************************************************************************************************
+															Contenu
+******************************************************************************************************************** ***/
+
+#contenu {
+	clear:both;
+	margin-top: -44px;
+}
+
+#contenu .bloc {
+	float:left;
+	width:470px;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 1px 1px 18px #CCC;
+	background: #fff;
+	margin:15px;
+}
+
+#contenu .bloc h2 {
+	color:#4f394f;
+	margin: 15px 0 10px 19px;
+	font-family: "Lobster Two";
+	font-size:1.2em;
+}
+
+
+#contenu .bloc .img {
+	float:left;
+	border-radius: 10px;
+	background:#4f394f;
+	padding: 8px;
+	margin-left: 19px;
+}
+
+#contenu .bloc img {
+	border-radius: 6px;
+	border: #fff 3px solid;
+}
+
+#contenu .bloc .right {
+	float:left;
+	text-align:center;
+	width:129px;
+}
+
+#contenu .bloc .right .personne{
+	display:inline-block;
+	margin: 0 0 10px 15px;
+	font-size: 1.3em;
+	width:130px;
+	color:#879180;
+	font-family: "Lobster Two";
+}
+
+#contenu .bloc .right li {
+	margin: 0 0 7px 10px;
+	padding: 2px 12px 0 26px;
+	height:28px;
+	width: 105px;
+	list-style:none;
+	color: #fff;
+	font-family: "Lobster Two";
+}
+
+#contenu .bloc .right li:nth-of-type(1) {background: url(img/fleche2.png) 0 0 no-repeat;}
+#contenu .bloc .right li:nth-of-type(2) {background: url(img/fleche2.png) 0 -41px no-repeat;}
+#contenu .bloc .right li:nth-of-type(3) {background: url(img/fleche2.png) 0 -82px no-repeat;}
+
+#contenu .bloc p {
+	clear:both;
+	padding: 10px 19px 0;
+	font-size:0.8em;
+	text-align:justify;
+}
+
+#contenu .bloc .more {
+	text-align:right;
+	font-size:0.8em;
+	font-weight:bold;
+	padding: 15px 19px;
+	color:#4F394F;
+}
+
+/*** ********************************************************************************************************************
+															Footer
+******************************************************************************************************************** ***/
+
+footer {
+	clear:both;
+    display: inline-block;
+    margin-top: -19px;
+    min-width: 1000px;
+    width: 100%;
+}
+
+footer #footer_top_top{
+	background:url(img/demi-rond-bas.png) 0 0 repeat-x;
+	height:17px;
+	min-width:1000px;
+}
+
+footer #footer_top {
+	background:#5e1737;
+	min-width:1000px;
+}
+
+footer #footer_top p {
+	color:#fff;
+	font-size:1.05em;
+	text-align:center;
+	padding: 11px 0 25px;
+	font-family: "Lobster Two";
+}
+
+footer #footer_middle {
+	background: #4C1B2F;
+	min-width:1000px;
+	padding:20px 0;
+	min-height: 130px;
+}
+
+footer #footer_middle .footer {
+	display:inline-block;
+	border-left: 1px #E4ADB9  solid;
+	min-height: 130px;
+	text-transform:capitalize;
+	float:left;
+}
+
+footer #footer_middle div.footer:nth-of-type(1){
+	padding: 0 50px 0 30px;
+}
+
+footer #footer_middle div.footer:nth-of-type(2){
+	padding: 0 50px 0 30px;
+}
+
+footer #footer_middle div.footer:nth-of-type(3){
+	padding: 0 50px 0 30px;
+}
+
+footer #footer_middle .footer .top {
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:0.8em;
+}
+
+footer #footer_middle .footer li {
+	margin: 0 0 0 15px;
+	list-style: url(img/puce.png);
+	list-style-position: -2px;
+	color:#A68D97;
+	font-weight:bold;
+	font-size:0.8em;
+	padding: 2px 0;
+}
+
+footer #footer_middle .footer a {
+	color: #A68D97;
+}
+
+footer #footer_bottom {
+	background: #7F7078;
+	clear:both;
+	min-width:1000px;
+	text-align:center;
+	color:#fff;
+	font-size:0.75em;
+	color:#fff;
+	padding: 10px 0;
+}
+footer #footer_bottom a {
+	font-weight:bold;
+	color:#fff;
+}
